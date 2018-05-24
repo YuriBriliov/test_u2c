@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: url(../img/bg2.png) no-repeat center;
+  height: 100vh;
+  width: 100%;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+  background: #0e2f6d;
+  padding: 30px 0px 15px 0px;
+}
+
+.nav_bar {
+  display: block;
+}
+
+.nav_item {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  font-size: 18px;
+}
+
+.nav_item a {
+  color: #fff;
+  padding-right: 20px;
+}
+
+.user_info {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.user_info li {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+#main {
+  /* margin: 0;
+  padding: 0;
+  background: url(../img/man.png) no-repeat center;
+  height: 120%;
+  width: 100%;
+  z-index: 2; */
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  padding-top: 40px;
+  font-weight: 800;
+  font-size: 64px;
+  color: #0e2f6d;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.main{
+  position: relative;
+}
+
+.main img {
+  position: absolute;
+  z-index: 1;
+  left: 33%;
+  top: 20%;
+}
+
+.progress_panel {
+  padding-left: 40px;
+
+}
+
+#regali {
+  position: relative;
+  margin-top: 60px;
+  z-index: 2;
+}
+
+.regali_scroll {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.regali_scroll li {
+  float: left;
+}
+
+.regali_item1 {
+  background: url(../img/points_green.png) no-repeat center;
+  padding-right: 10%;
+  margin-top: 8%;
+}
+
+.regali_item2 {
+  background: url(../img/points.png) no-repeat center;
+  padding-right: 10%;
+  margin-top: 6%;
+}
+
+.regali_item3 {
+  background: url(../img/points.png) no-repeat center;
+  padding-right: 10%;
+  margin-top: 8%;
+}
+
+.regali_item4 {
+  background: url(../img/points.png) no-repeat center;
+  padding-right: 10%;
+  margin-top: 8%;
+}
+
+.regali_item5 {
+  background: url(../img/points.png) no-repeat center;
+  padding-right: 10%;
+  margin-top: 8%;
+}
+
+.regali_item6 {
+  padding-right: 10%;
+}
+
+footer {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #fff;
+  border-top: 2px solid #0e2f6d;
+  z-index: 7;
+}
+
+footer ul {
+  margin: 0 auto;
+  display: block;
+  list-style-type: none;
+  padding: 20px 0px 20px 0px;
+}
+
+footer li {
+  float: left;
+  padding-left: 10%;
+}
